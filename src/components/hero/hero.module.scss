@@ -60,32 +60,6 @@
     letter-spacing: 3%;    
   }
 
-  .btm {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    background-color: #01005b;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 3%;
-    color: white;
-    text-align: center;
-    padding: 16px 76px;
-    border-radius: 8px;
-    position: relative;
-    margin-top: 39px;
-  }
-
-  .arrow {
-    position: absolute;
-    bottom: 50%;
-    right: 30px;
-    transform: translateY(50%);
-  }
-
   .banner {
     width: 400px;
     height: auto;
@@ -148,29 +122,4 @@
     margin-left: 10px;
   }
 
-  .btm {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    background-color: #01005b;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 3%;
-    color: white;
-    text-align: center;
-    padding: 16px 76px;
-    border-radius: 8px;
-    position: relative;
-    margin-top: 39px;
-  }
-
-  .arrow {
-    position: absolute;
-    bottom: 8px;
-    right: 30px;
-    // margin-left: 20px;
-  }
 }

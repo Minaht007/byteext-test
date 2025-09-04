@@ -5,7 +5,7 @@ import Logo from "../../img/LOGO.svg";
 import dayAndNightIcon from "../../img/hero/icons/dayAndNight.svg";
 import cart from "../../img/hero/icons/cart.svg";
 import way from "../../img/hero/icons/way.svg";
-import rightArrow from "../../img/hero/icons/arrowRight.svg";
+import Btm from "../btm/btm"
 
 import banner from "../../img/hero/banner.webp";
 
@@ -63,16 +63,7 @@ const Hero = () => {
                 anything you’ve ever felt.
               </p>
             </li>
-            <button type="button" className={styles.btm}>
-              Customize Your Outfit{" "}
-              <Image
-                src={rightArrow}
-                alt="rightArrow"
-                width={23}
-                height={10}
-                className={styles.arrow}
-              />{" "}
-            </button>
+            <Btm/>
           </ul>
 
           <Image src={banner} alt="baner" width={725} height={422} className={styles.banner} />

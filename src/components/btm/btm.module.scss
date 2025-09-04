@@ -1,0 +1,58 @@
+// For Mobile-----------------------------
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .btm {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        background-color: #01005b;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        color: white;
+        text-align: center;
+        padding: 16px 76px;
+        border-radius: 8px;
+        position: relative;
+        margin-top: 39px;
+        margin-bottom: 142px;
+      }
+    
+      .arrow {
+        position: absolute;
+        bottom: 50%;
+        right: 30px;
+        transform: translateY(50%);
+      }
+}
+
+// For Dsktop--------------------------------
+@media screen and (min-width: 1200px) {
+    .btm {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        background-color: #01005b;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 3%;
+        color: white;
+        text-align: center;
+        padding: 16px 76px;
+        border-radius: 8px;
+        position: relative;
+        margin-top: 39px;
+      }
+    
+      .arrow {
+        position: absolute;
+        bottom: 8px;
+        right: 30px;        
+      }
+}
