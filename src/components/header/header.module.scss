@@ -1,0 +1,50 @@
+// For Mobile-----------------------------
+
+@media screen and (min-width: 390px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        background-color: #f9f0e5;
+        width: 100%;
+        max-width: 1920px;
+        height: fit-content;
+      }
+      
+      .title {
+        padding: 2px 0;
+      
+        font-family: "Suisse Int'l";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 11px;
+        line-height: 35px;
+        letter-spacing: 8%;
+        text-align: center;
+      }
+}
+
+
+// For Dsktop--------------------------------
+@media screen and (min-width: 1200px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        background-color: #f9f0e5;
+        width: 100%;
+        max-width: 1920px;
+        height: fit-content;
+      }
+      
+      .title {
+        padding: 2px 0;
+      
+        font-family: "Suisse Int'l";
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 11px;
+        line-height: 35px;
+        letter-spacing: 8%;
+        text-align: center;
+      }
+}
+
