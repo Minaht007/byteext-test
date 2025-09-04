@@ -1,0 +1,103 @@
+// For Mobile-----------------------------
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0 66px 0;
+        align-items: center;
+      }
+    
+      .img {
+        width: 344px;
+        height: auto;
+        padding-bottom: 42px;
+      }
+    
+      .infoPart {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        max-width: 619px;
+        
+      }
+
+      .title {
+        display: none;
+      }    
+
+      .titleMob {
+        display: flex;
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 26px;        
+        line-height: 40px;
+        letter-spacing: 4%;
+        text-align: center;        
+        color: #2a2996;   
+        padding-bottom: 42px;
+        
+      }
+      .scripts {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 15px;       
+        line-height: 23px;
+        letter-spacing: 3%;        
+        color: #6c6c6c;
+        padding: 20px 47px 0px 47px;
+        text-align: justify;
+      }
+}
+
+// For Dsktop--------------------------------
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    padding: 83px 0 56px 123px;
+  }
+
+  .img {
+    width: 523px;
+    height: 664px;
+  }
+
+  .infoPart {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    max-width: 619px;
+    
+  }
+
+  .titleMob {
+    display: none;
+  }
+
+  .title {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    color: #2a2996;
+    padding-top: 40px;
+    padding-left: 68px;
+  }
+  .scripts {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    color: #6c6c6c;
+    padding: 12px 99px 12px 68px;
+  }
+  .btmDiv {
+    padding-left: 62px;
+  }
+}
