@@ -1,0 +1,176 @@
+// For Mobile-----------------------------
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    padding: 0 62px 0 106px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    margin-top: 32px;
+  }
+
+  .slogan {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 4%;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  .infoBlock {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .listContainer {
+    width: 80vw;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .list:nth-child(2) {
+    padding: 18px 0;
+  }
+  .icons {
+    padding-right: 10px;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 3%;    
+  }
+
+  .btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #01005b;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: white;
+    text-align: center;
+    padding: 16px 76px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 39px;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 50%;
+    right: 30px;
+    transform: translateY(50%);
+  }
+
+  .banner {
+    width: 400px;
+    height: auto;
+  }
+
+
+
+
+}
+
+// For Dsktop--------------------------------
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    padding: 0 62px 0 106px;
+    position: relative;   
+  }
+
+  .logo {
+    margin-top: 32px;
+  }
+
+  .slogan {
+    padding-top: 62px;
+  }
+
+  .infoBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .listContainer {
+    width: 470px;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .list:nth-child(2) {
+    padding: 18px 0;
+  }
+  .icons {
+    padding-right: 10px;
+  }
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    margin-left: 10px;
+  }
+
+  .btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #01005b;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    color: white;
+    text-align: center;
+    padding: 16px 76px;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 39px;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+    // margin-left: 20px;
+  }
+}
