@@ -36,12 +36,25 @@
   display: flex;
   padding: 29px 0 20px 37px;
 }
+.btmDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; 
+}
+
+
+.starsImg {
+  width: 340px;
+  height: 17px;
+}
 
 // Mobile ===============================
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
   .mainDiv {
-    display: flex;
+    display: flex;    
+    flex-direction: column;
     justify-content: center;
     padding-top: 37px;
   }
@@ -60,10 +73,7 @@
     box-shadow: 0px 3px 10px 1px #00000014; 
   }
 
-  // .nameClient {
-  //   margin: 29px 0 20px 37px;
-  // }
-
+ 
   .cardName {
     font-family: Sofia Pro;
     font-weight: 400;
@@ -110,6 +120,9 @@
     color: #676869;
     padding: 0 23px 23px 23px;
   }
+  .btmDiv {
+    padding-bottom: 27px;
+  }
 }
 
 // Desktop-----------------
@@ -117,6 +130,7 @@
 @media screen and (min-width: 1200px) {
   .mainDiv {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-top: 37px;
   }
@@ -136,13 +150,17 @@
     border: 1px solid #EAEAEA;
     border-radius: 4px;
     box-shadow: 0px 3px 10px 1px #00000014;    
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
- 
-  // .nameClient {
-    
-  //   padding: 29px 0 20px 37px;
-  // }
+  .activeSlide {
+    transform: scale(1.2); 
+    z-index: 2; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  } 
+
+
 
   .cardName {
     font-family: Sofia Pro;
@@ -189,5 +207,10 @@
     text-align: center;
     color: #676869;
     padding: 0 35px 23px 35px;
+  }
+
+  .btmDiv {
+   
+    padding-bottom: 60px;
   }
 }

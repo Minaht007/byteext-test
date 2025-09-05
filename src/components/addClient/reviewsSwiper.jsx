@@ -4,6 +4,8 @@ import styles from "./rewiews.module.scss";
 import { useEffect, useState } from "react";
 import { useSwipeable } from "react-swipeable";
 import { FcPrevious, FcNext } from "react-icons/fc";
+import Btm from "../btm/btm"
+import starsImg from "../../../public/img/describeIcons/stars.svg"
 
 const reviewsCard = [
   {
@@ -98,24 +100,42 @@ const ReviewsSwip = () => {
           <FcPrevious  className={styles.arrowLeft} />
         </button>
         {reviewsCard
-          .slice(currentIndex, currentIndex + slidesPerPage)
-          .map((slide) => (
-            <div key={slide.id} className={styles.cartInfo}>
-              <div key={slide.id} className={styles.clientData}>
-                <img src={slide.img} alt={slide.alt} width={34} height={34} />
+  .slice(currentIndex, currentIndex + slidesPerPage)
+  .map((slide, idx) => {
+    const isActive = slidesPerPage === 3 && idx === 1; // центральный слайд
+    return (
+      <div
+        key={slide.id}
+        className={`${styles.cartInfo} ${isActive ? styles.activeSlide : ""}`}
+      >
+        <div className={styles.clientData}>
+          <img src={slide.img} alt={slide.alt} width={34} height={34} />
 
-                <div className={styles.nameClient}>
-                  <p className={styles.cardName}>{slide.name}</p>
-                  <Image src={slide.stars} alt="con stars" width={60} height={10} className={styles.avatar}/>
-                </div>
-              </div>
-              <p className={styles.text}>{slide.text}</p>
-            </div>
-          ))}
+          <div className={styles.nameClient}>
+            <p className={styles.cardName}>{slide.name}</p>
+            <Image
+              src={slide.stars}
+              alt="con stars"
+              width={60}
+              height={10}
+              className={styles.avatar}
+            />
+          </div>
+        </div>
+        <p className={styles.text}>{slide.text}</p>
+      </div>
+    );
+  })}
         <button onClick={nextSlide}>
           <FcNext  className={styles.arrowRight} />
         </button>
       </div>
+
+      <div className={styles.btmDiv}>
+         <Btm/>
+         <Image src={starsImg} alt="icon stars" width={340} height={17} className={styles.starsImg} />
+      </div>
+     
     </div>
   );
 };
