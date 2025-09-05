@@ -6,6 +6,8 @@ import dayAndNightIcon from "../../img/hero/icons/dayAndNight.svg";
 import cart from "../../img/hero/icons/cart.svg";
 import way from "../../img/hero/icons/way.svg";
 import Btm from "../btm/btm"
+import avatar from "../../../public/img/hero/avatar.jpg"
+import star from "../../img/hero/icons/star.svg"
 
 import banner from "../../img/hero/banner.webp";
 
@@ -64,6 +66,26 @@ const Hero = () => {
               </p>
             </li>
             <Btm/>
+
+            <div className={styles.revContainer}>
+              <div className={styles.reviewsHeader}>
+                <div>
+                  <Image src={avatar} alt="avatar" width={39} height={39} />
+                </div>
+                <div  className={styles.revNameBlock}>
+                  <p className={styles.revName}>Amy P.</p>
+                  <p className={styles.revStar}>
+                    <Image src={star} alt="star" width={60} height={10} />
+                    One of 500+ 5 Star Reviews Online
+                  </p>
+                </div>
+              </div>
+
+              <p className={styles.revText}>Overjoyed with my Loungewear set. I have the jogger and the sweatshirt. Quality product on every level. From the compostable packaging, to the supplied washing bag, even the garments smells like fresh herbs when I first held them. </p>
+
+
+            </div>
+
           </ul>
 
           <Image src={banner} alt="baner" width={725} height={422} className={styles.banner} />

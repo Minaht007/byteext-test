@@ -6,9 +6,7 @@
 @media screen and (min-width: 390px) and (max-width: 767px) {
   .container {
     display: flex;
-    flex-direction: row;
-    // align-items: center;
-    justify-content: center;
+    flex-direction: row;   
   }
 
   .h1 {
@@ -27,8 +25,7 @@
   .ul {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    gap: 41px;
+    align-items: center;    
   }
 
   .li {

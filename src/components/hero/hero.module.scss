@@ -9,6 +9,7 @@
     position: relative;
     align-items: center;
     justify-content: center;
+    position: relative;
   }
 
   .logo {
@@ -57,7 +58,7 @@
     font-style: Regular;
     font-size: 13px;
     line-height: 18px;
-    letter-spacing: 3%;    
+    letter-spacing: 3%;
   }
 
   .banner {
@@ -65,7 +66,68 @@
     height: auto;
   }
 
+   // reviews
 
+   .revContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ededed;
+    box-shadow: 0px 3px 10px 0px #00000014;
+    width: 388px;    
+    overflow: hidden;
+    position: absolute;
+    left: 106px;
+    bottom: -10%;
+    z-index: 3;
+    background-color: white;
+    border-radius: 8px;
+    
+  }
+
+  .reviewsHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 19px;
+  }
+
+  .revNameBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+  }
+
+  .revName {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    color: var(--second-text-color);
+    padding-right: 20px;
+  }
+  .revStar {
+    font-family: "Suisse Int'l";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: var(--second-text-color);
+  }
+
+  .revText {
+    font-family: "Suisse Int'l";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 23px;
+    letter-spacing: 4%;
+    color: var(--second-text-color);
+    padding: 10px 12px;
+  }
 
 
 }
@@ -77,7 +139,7 @@
     flex-direction: column;
     max-width: 1920px;
     padding: 0 62px 0 106px;
-    position: relative;   
+    position: relative;
   }
 
   .logo {
@@ -122,4 +184,65 @@
     margin-left: 10px;
   }
 
+  // reviews
+
+  .revContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ededed;
+    box-shadow: 0px 3px 10px 0px #00000014;
+    width: 416px;
+    height: 172px;
+    position: absolute;
+    left: 106px;
+    bottom: -22%;
+    z-index: 3;
+    background-color: white;
+    border-radius: 8px;
+    // transform: translateX(25%);
+  }
+
+  .reviewsHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 19px;
+  }
+
+  .revNameBlock {
+    display: flex;
+  }
+
+  .revName {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    color: var(--second-text-color);
+    padding-right: 20px;
+  }
+  .revStar {
+    font-family: "Suisse Int'l";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 2%;
+    color: var(--second-text-color);
+  }
+
+  .revText {
+    font-family: "Suisse Int'l";
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 23px;
+    letter-spacing: 4%;
+    color: var(--second-text-color);
+    padding: 10px 18px;
+    text-align: justify;
+  }
 }

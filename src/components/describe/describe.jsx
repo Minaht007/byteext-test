@@ -83,10 +83,10 @@ const Describe = () => {
 					<FcNext size={40} />
 				</button>               
 			</div>
-            <div>
+            
                 <Btm />
 				<Image src={starsImg} alt="icon" width={340} height={17} className={styles.imgStar} />
-            </div>
+           
             
 		</div>
 	);
