@@ -1,0 +1,155 @@
+
+
+
+// Mobile ===============================
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h1 {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    text-align: center;
+    text-align: center;
+    color: #01005b;
+    padding: 75px 0 46px 0;
+  }
+
+  .ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 41px;
+  }
+
+  .li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededed;
+    width: 288px;
+    height: 288px;
+  }
+
+  .li:nth-child(2) {
+    background-color: #f9f0e6;
+  }
+
+  .h2 {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #01005b;
+    padding: 14px 0;
+  }
+
+  .p {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #676869;
+    padding: 0 35px;
+  }
+  .mainDiv {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+  
+}
+}
+
+// Desktop-----------------
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .h1 {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #01005b;
+    padding: 75px 0 46px 0;
+  }
+
+  .ul {
+    display: flex;
+    // justify-content: space-around;
+    align-items: center;    
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+
+  .li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededed;
+    width: 346px;
+    height: 321px;
+    gap: 41px;
+
+  }
+
+  .li:nth-child(2) {
+    background-color: #f9f0e6;
+   
+  }
+
+  .h2 {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #01005b;
+    padding: 14px 0;
+  }
+
+  .p {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #676869;
+    padding: 0 35px;
+  }
+  .mainDiv {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+  
+}
+}
