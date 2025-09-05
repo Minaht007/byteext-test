@@ -39,11 +39,39 @@
         padding-bottom: 40px;
       }
 
-      .bannerImg {
+      .bannerDiv {
         display: flex;
-        width: 370px;
-        height: auto;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+        position: relative;
+        z-index: 5;
       }
+      
+      .baner1 {
+        transform: translateX(40%); 
+        z-index: 1;                
+      }
+      
+      .baner5 {
+        transform: translateX(-40%); 
+        z-index: 1;
+      }
+      
+      .baner2,
+      .baner3,
+      .baner4 {
+        z-index: 2;
+      }
+     
+
+
+
+    //   .bannerImg {
+    //     display: flex;
+    //     width: 370px;
+    //     height: auto;
+    //   }
       
       .plusesDiv {
          display: none;
@@ -135,5 +163,44 @@
       .img {
           margin-left: 10px;
       }
+
+
+      .bannerDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+        position: relative;
+        z-index: 5;
+      }
+      
+      .baner1 {
+        transform: translateX(40%); 
+        z-index: 1;  
+        width: 139px; 
+        height: 196px;             
+      }
+      
+      .baner5 {
+        transform: translateX(-40%); 
+        z-index: 1;
+        width: 139px; 
+        height: 196px;  
+      }
+      
+      .baner2,
+      .baner3,
+      .baner4 {
+        z-index: 2;
+        width: 209px;
+        height: 316px;
+      }
+
+      .baner3 {
+        width: 246px;
+        height: 373px;
+      }
+
+
 }
 
