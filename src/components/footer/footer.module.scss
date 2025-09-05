@@ -1,73 +1,139 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: linear-gradient(
-    0deg,
-    #F9F0E5 0%,
-    rgba(249, 240, 229, 0.18) 43.05%,
-    rgba(249, 240, 229, 0) 100%
-  );
+// Mobile ===============================
 
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(
+          0deg,
+          #F9F0E5 0%,
+          rgba(249, 240, 229, 0.18) 43.05%,
+          rgba(249, 240, 229, 0) 100%
+        );
+      
+      }
+      
+      .title {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 4%;
+        text-align: center;
+        color: var(--title-color);
+        padding: 84px 0 52px 0;
+      }
+      
+      .text {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 3%;
+        text-align: center;
+        color: var(--second-text-color);
+        width: 80vw;
+        padding-bottom: 40px;
+      }
+
+      .bannerImg {
+        display: flex;
+        width: 370px;
+        height: auto;
+      }
+      
+      .plusesDiv {
+         display: none;
+      }
+      
+     .paySysImg {
+        display: none;
+     }
+      
+      .img {
+          display: none;
+      }
 }
 
-.title {
-  font-family: Sofia Pro;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 32px;
-  line-height: 40px;
-  letter-spacing: 4%;
-  text-align: center;
-  color: var(--title-color);
-  padding: 84px 0 52px 0;
+
+// Desktop-----------------
+
+@media screen and (min-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(
+          0deg,
+          #F9F0E5 0%,
+          rgba(249, 240, 229, 0.18) 43.05%,
+          rgba(249, 240, 229, 0) 100%
+        );
+      
+      }
+      
+      .title {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 4%;
+        text-align: center;
+        color: var(--title-color);
+        padding: 84px 0 52px 0;
+      }
+      
+      .text {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 3%;
+        text-align: center;
+        color: var(--second-text-color);
+        width: 587px;
+        padding-bottom: 40px;
+      }
+      
+      .plusesDiv {
+          display: flex;
+          padding-top: 23px;
+          padding-bottom: 94px;
+      }
+      
+      .pluses {
+        display: flex;
+        align-items: center;
+      }
+      
+      .pluses:nth-child(2) {
+          border-left: 1px solid var(--second-border-color);
+          border-right: 1px solid var(--second-border-color);
+      }
+      
+      
+      .pluseText {
+        margin-left: 10px;
+      
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3%;
+        color: var(--second-text-color);
+        width: 162px;
+        padding-left: 17px;
+        padding-right: 17px;
+      }
+      
+      .img {
+          margin-left: 10px;
+      }
 }
 
-.text {
-  font-family: Sofia Pro;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 15px;
-  line-height: 22px;
-  letter-spacing: 3%;
-  text-align: center;
-  color: var(--second-text-color);
-  width: 587px;
-  padding-bottom: 40px;
-}
-
-.plusesDiv {
-    display: flex;
-    padding-top: 23px;
-    padding-bottom: 94px;
-}
-
-.pluses {
-  display: flex;
-  align-items: center;
-}
-
-.pluses:nth-child(2) {
-    border-left: 1px solid var(--second-border-color);
-    border-right: 1px solid var(--second-border-color);
-}
-
-
-.pluseText {
-  margin-left: 10px;
-
-  font-family: Sofia Pro;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 14px;
-  line-height: 20px;
-  letter-spacing: 3%;
-  color: var(--second-text-color);
-  width: 162px;
-  padding-left: 17px;
-  padding-right: 17px;
-}
-
-.img {
-    margin-left: 10px;
-}
