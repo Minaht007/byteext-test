@@ -4,6 +4,8 @@ import { useSwipeable } from "react-swipeable";
 import { FcPrevious, FcNext } from "react-icons/fc";
 import styles from "./describe.module.scss"
 import Btm from "../btm/btm"
+import starsImg from "../../../public/img/describeIcons/stars.svg"
+import Image from "next/image";
 
 const icons = [
     {id: 1, img: "/img/describeIcons/cart.svg", slogan: "You save.", script: "Browse our comfort sets and save 15% when you bundle."},
@@ -83,6 +85,7 @@ const Describe = () => {
 			</div>
             <div>
                 <Btm />
+				<Image src={starsImg} alt="icon" width={340} height={17} className={styles.imgStar} />
             </div>
             
 		</div>

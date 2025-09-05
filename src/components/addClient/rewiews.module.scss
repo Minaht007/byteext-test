@@ -1,0 +1,193 @@
+.imgContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(11, 1fr);
+  }
+}
+
+.gallery {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+
+  img {
+    object-fit: cover;
+    width: 140px;
+    height: auto;
+  }
+}
+
+.nameClient {
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+  
+}
+
+.clientData {
+  display: flex;
+  padding: 29px 0 20px 37px;
+}
+
+// Mobile ===============================
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+  .mainDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+  }
+
+  .cartInfo {
+    width: 291px;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    box-shadow: 0px 3px 10px 1px #00000014; 
+  }
+
+  // .nameClient {
+  //   margin: 29px 0 20px 37px;
+  // }
+
+  .cardName {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    color: #676869;
+    margin-left: 10px;
+  }
+
+  .avatar {
+    padding-left: 10px;
+  }
+  .arrowLeft {
+    size: 14px;
+    margin-right: 20px;
+  }
+  .arrowRight {
+    size: 14px;
+    margin-left: 20px;
+  }
+
+  .title {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #01005b;
+    padding: 59px 0;
+  }
+
+  .text {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    text-align: justify;
+    color: #676869;
+    padding: 0 23px 23px 23px;
+  }
+}
+
+// Desktop-----------------
+
+@media screen and (min-width: 1200px) {
+  .mainDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+  }
+
+  .cardContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
+    // gap: 30px;
+    padding-bottom: 66px;
+   
+  }
+
+  .cartInfo {
+    width: 331px; 
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    box-shadow: 0px 3px 10px 1px #00000014;    
+  }
+
+ 
+  // .nameClient {
+    
+  //   padding: 29px 0 20px 37px;
+  // }
+
+  .cardName {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    color: #676869;
+    margin-left: 10px;
+  }
+
+  .avatar {
+    padding-left: 10px;
+  }
+  .arrowLeft {
+    size: 14px;
+    margin-right: 20px;
+  }
+  .arrowRight {
+    size: 14px;
+    margin-left: 20px;
+  }
+
+  .title {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #01005b;
+    padding: 59px 0;
+  }
+
+  .text {
+    font-family: Sofia Pro;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #676869;
+    padding: 0 35px 23px 35px;
+  }
+}
