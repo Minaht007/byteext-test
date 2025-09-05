@@ -33,6 +33,10 @@ body {
   font-family: "Suisse Int'l";
   background-color: #fff;
   color: #111;
+  --title-color: #01005B;
+  --main-color: #F9F0E5;
+  --border-color: #EAEAEA;
+  --second-text-color: #676869;
 }
 
 button,
@@ -60,7 +64,8 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  :root {
+  /* :root {
     --main-color: #F9F0E5;
-  }
+    --title-color: #01005B;
+  } */
 }
