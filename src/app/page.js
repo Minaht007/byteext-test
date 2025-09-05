@@ -4,6 +4,7 @@ import About from "../components/about/about"
 import Describe from "../components/describe/describe"
 import Reviews from "../components/addClient/addRewies"
 import Faq from "../components/faq/faq"
+import InfoBlock from "../components/infoBanner/infoBanner"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Describe />
       <Reviews/>
       <Faq/>
+      <InfoBlock/>
     </div>
   );
 }

@@ -1,0 +1,154 @@
+
+// Mobile ===============================
+
+@media screen and (min-width: 390px) and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0EEEF;
+        max-width: 1920px;
+      }
+      
+      .title {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 4%;
+        text-align: center;
+        color: var(--title-color);
+        padding-top: 39px;
+        padding-bottom: 26px;
+      }
+      
+      .cardDiv {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      
+      .card {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+      }
+      
+      .card:nth-child(2) {
+          border-top: 1px solid var(--second-border-color);
+          border-bottom: 1px solid var(--second-border-color);
+      }
+
+      .card:nth-child(3) {
+        display: none;
+      }
+      
+      .imgIcon {
+          margin-left: auto;
+          margin-right: auto;
+      }
+      
+      .cardTitle {
+        font-family: Sofia Pro;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: 2%;
+        text-align: center;
+        vertical-align: middle;
+        color: var(--title-color);
+        padding: 13px 13px 8px 13px;
+      }
+      
+      .cardText {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3%;
+        text-align: center;
+        vertical-align: middle;
+        color: var(--title-color);
+        padding-bottom: 42px;
+      }
+}
+
+
+
+// Desktop-----------------
+
+@media screen and (min-width: 1200px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: #F0EEEF;
+        max-width: 1920px;
+      }
+      
+      .title {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 4%;
+        text-align: center;
+        color: var(--title-color);
+        padding-top: 39px;
+        padding-bottom: 26px;
+      }
+      
+      .cardDiv {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+      }
+      
+      .card {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+      }
+      
+      .card:nth-child(2) {
+          border-left: 1px solid var(--second-border-color);
+          border-right: 1px solid var(--second-border-color);
+      }
+      
+      .imgIcon {
+          margin-left: auto;
+          margin-right: auto;
+      }
+      
+      .cardTitle {
+        font-family: Sofia Pro;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 22px;
+        line-height: 20px;
+        letter-spacing: 2%;
+        text-align: center;
+        vertical-align: middle;
+        color: var(--title-color);
+        padding: 13px 13px 8px 13px;
+      }
+      
+      .cardText {
+        font-family: Sofia Pro;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 3%;
+        text-align: center;
+        vertical-align: middle;
+        color: var(--title-color);
+        padding-bottom: 42px;
+      }
+}
+
+
+
